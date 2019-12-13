@@ -1,0 +1,14 @@
+Opin lukemaan req.bodya joka lukee http requestilla käyttäjän syötteet html sivulta ja tallentaa ne tietokantaan.
+hauskaa oli luoda palvelimen puolelle tietokantaan datan vienti, logiikat ja määritykset.
+Hankalaa oli luoda html sivut ilman frameworkkia esim pug.
+Jotkin funktiot ihmetyttivät, koska haluan oppia käyttämään mahdollisimman paljon "arrow functioita" jota olen yrittänyt sisäistää. Ymmärrän
+toimintaperiaatteen, mutta en täysin hallitse sen käyttöä ja osaa soveltaa haastavempia funktioita suoritettavaksi siihen.
+
+Jos tekisin projektin uudelleen, kokeilisin AJAX clientin päätyyn ja kokeilisin cryptausta salasanalle, esim bcrypt, tai passport.
+
+Projektilla tuli hieman kiire, joten tässä listaus seuraavista mitä en ehtinyt vielä hiomaan.
+Suurin ja epävakain huomio on routeissa. Esim nykyiset routet ovat /Register,- /Login,- /Home. Jos käyttäjä menee jollekkin muulle sivulle, ohjelma tuo errorin.
+Tämän korjaisin if ja else logiikoilla ja tarjoaisin jonkin html sivun joka kertoo, että yo routet ovat käytössä.
+Responsiivisuus, mutta hyvin pyörii ainekin omalla koneella ja kännykällä (nova 3)
+
+Projekti toi hyvin esiin mitä kaikkea palvelimella voi tehdä mietin miten parantaisin tietoturvallisuutta, vaikka tätä en ehtinyt parsia kasaan.
